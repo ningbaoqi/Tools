@@ -17,3 +17,14 @@
 + [android文档网址](http://www.androiddevtools.cn/)
 + [android文档网址](http://www.android-doc.com)
 + [android文档网址](https://www.jetbrains.com)
++ [制作gif工具网址](https://makeagif.com)
++ [简历制作工具网址](https://makeagif.com)
++ [直接拿来用，最火的android开源框架](https://www.csdn.net/article/2013-05-03/2815127-Android-open-source-projects)
+
+
+​
+|制作gif工具网址|https://makeagif.com|
+|简历制作工具网址|http://www.500d.me|
+|直接拿来用，最火的android开源框架|https://www.csdn.net/article/2013-05-03/2815127-Android-open-source-projects|
+|Material Design|http://design.1sters.com/#|         
+|性能优化|https://github.com/lyc7898/AndroidTech；5482586@qq.com|
