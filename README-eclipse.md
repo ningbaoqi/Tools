@@ -39,3 +39,6 @@
 |查看Eclipse支持的快捷方式|Ctrl+Shift+L|
 |在Eclipse中添加注释或取消注释|Ctrl+'/'或Ctrl+7|
 |在Eclipse中自动快捷的补全之前出现的代码|Alt+Ctrl+'/'|
+
+### 在IDE中导入Android源代码
++ 在导入代码之前一定要将`project/build automatically`解勾选；`window/preferences/java/code Style/formatter/import/MT6757/development/ide/eclipse/android-formatting.xml`为了保证代码格式；`window/preferences/java/code Style/organize imports/import/MT6757/development/ide/eclipse/android.importorder`为了加快导入速度；需要将`development/ide/eclipse/.classpath`文件复制到源代码的根目录下，根据需要修改`.classpath`文件之后，进入eclipse下的菜单，选择`file->mew->java project`然后进行导入，在导入源代码时必须在编译完整的android源代码以后执行；
