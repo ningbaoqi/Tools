@@ -22,6 +22,3 @@
 + [直接拿来用，最火的android开源框架](https://www.csdn.net/article/2013-05-03/2815127-Android-open-source-projects)
 + [Material Design](http://design.1sters.com/#)
 + [性能优化](https://github.com/lyc7898/AndroidTech)；5482586@qq.com
-
-|Material Design|http://design.1sters.com/#|         
-|性能优化|https://github.com/lyc7898/AndroidTech；5482586@qq.com|
