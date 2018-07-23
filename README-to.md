@@ -42,7 +42,7 @@
 
 + 如果勾选，就会重新生成新的第三方管理库和依赖关系，依赖关系和第三方库也可以在build.gradle文件上修改；如图所示：
 
-![image](https://github.com/ningbaoqi/Tools/blob/master/gif/pic-54jpg)
+![image](https://github.com/ningbaoqi/Tools/blob/master/gif/pic-54.jpg)
 
 + 有三个选项可以选择，前两个选项是jar包的引用规则，建议勾选，这样就不用管理这些jar包了，第三项是指是否需要把Module名创建为camelCase风格（首字母小写的命名规则）；
 
@@ -58,6 +58,6 @@
 |Next Steps：接下来需要做些什么，如果没有问题，一般会告诉你可以编译了|
 |Bugs：如果不能编译，就会列出当前项目存在的问题|
 
-![image](https://github.com/ningbaoqi/Tools/blob/master/gif/pic-55jpg)
+![image](https://github.com/ningbaoqi/Tools/blob/master/gif/pic-55.jpg)
 
 + 这样导入的项目还是会保留Eclipse的构建方式，比如在Eclipse上使用Ant构建，迁移后还是会使用Ant构建，如果先从Eclipse导出成Gradle项目就使用Gradle构建，当然也可以手动修改构建方式；更多关于EclipseADT迁移到AndroidStudio的方法可以查看：http://developer.android.com/intl/zh-cn/sdk/installing/migrate.html#prerequisites ;
