@@ -15,9 +15,13 @@
 + 包含Include：包含关系用来把一个较复杂用例所表示的功能分解成较小的步骤；
 ![image](https://github.com/ningbaoqi/Tools/blob/master/gif/pic-24.jpg)
 + 依赖Dependency：表示原用例依赖于目标用例；
+
 ![image](https://github.com/ningbaoqi/Tools/blob/master/gif/pic-25.jpg)
+
 #### 四、项目Artifact
+
 ![image](https://github.com/ningbaoqi/Tools/blob/master/gif/pic-26.jpg)
+
 + 可以在用例图中链接一个普通文档；
 #### 五、注释
 ![image](https://github.com/ningbaoqi/Tools/blob/master/gif/pic-27.jpg)
