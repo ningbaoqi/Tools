@@ -42,3 +42,6 @@
 
 ### 在IDE中导入Android源代码
 + 在导入代码之前一定要将`project/build automatically`解勾选；`window/preferences/java/code Style/formatter/import/MT6757/development/ide/eclipse/android-formatting.xml`为了保证代码格式；`window/preferences/java/code Style/organize imports/import/MT6757/development/ide/eclipse/android.importorder`为了加快导入速度；需要将`development/ide/eclipse/.classpath`文件复制到源代码的根目录下，根据需要修改`.classpath`文件之后，进入eclipse下的菜单，选择`file->mew->java project`然后进行导入，在导入源代码时必须在编译完整的android源代码以后执行；
+### Eclipse其他技巧
+#### 一、程序调试
++ 使用eclipse内置的调试器，该调试器可以进行设置程序的断点，实现程序单步执行，在调试过程中查看变量和表达式的值等调试操作，这样可以避免在程序中编写大量的输出语句；使用eclipse的java调试器需要设置程序断点，然后使用单步调试分别执行程序代码的每一行；java调试器每次遇到断点时都会将当前线程挂起，即暂停当前程序的运行；可以在java编辑器中显示代码行号的位置双击添加或删除当前行的断点，或者在当前行号的位置单机鼠标右键，在弹出的快捷菜单中选择切换断点命令来实现断点的添加与删除；使用爬虫的图标实现debug，单步跳过：即运行单独的一行程序代码，但是不进入调用方法的内部，然后调到下一个可执行点并暂停线程；单步跳入：执行该操作将跳入调用方法或对象的内部单步执行程序并暂挂线程；
