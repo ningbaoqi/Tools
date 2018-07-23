@@ -24,3 +24,6 @@
 
 ### AndroidStudio调试技巧
 [AndroidStudio调试技巧](https://github.com/ningbaoqi/Tools/blob/master/README-debug.md)
+
+### 单元测试步骤
+[单元测试步骤](https://github.com/ningbaoqi/Tools/blob/master/README-debug1.md)
