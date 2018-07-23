@@ -18,3 +18,6 @@
 |``|查看类的结构|`Alt+7`|
 |``|查看类的继承关系|`Ctrl+H`|
 |`reformat Code`|重新排列代码格式|`Ctrl+Shift+Q`|
+
+### Ubuntu上安装AndroidStudio
+[Ubuntu上安装AndroidStudio](https://github.com/ningbaoqi/Tools/blob/master/README-ubuntu.md)
