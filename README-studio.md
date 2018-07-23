@@ -21,3 +21,6 @@
 
 ### Ubuntu上安装AndroidStudio
 [Ubuntu上安装AndroidStudio](https://github.com/ningbaoqi/Tools/blob/master/README-ubuntu.md)
+
+### AndroidStudio调试技巧
+[AndroidStudio调试技巧](https://github.com/ningbaoqi/Tools/blob/master/README-debug.md)
