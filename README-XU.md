@@ -24,5 +24,7 @@
 + 选项Opt：包含一个可能发生或不可能发生的序列，可以在临界中指定序列发生的条件；
 ![image](https://github.com/ningbaoqi/Tools/blob/master/gif/pic-17.jpg)
 + 循环Loop：片段重复一定次数，可以在临界中指示片段重复的条件；
+
 ![image](https://github.com/ningbaoqi/Tools/blob/master/gif/pic-18.jpg)
+
 + 并行Par：并行处理，片段中的事件可以交错；中断break：如果执行此片段，则放弃序列的其余部分，可以使用临界来指示发生中断的条件；关键Critical：用在Par或Seq片段中，指示此片段中的消息不得与其他消息交错；弱顺序Seq：有两个或者更多操作数片段，涉及同一生命线的消息必须以片段的顺序发生，如果消息涉及的生命线不同，来自不同片段的消息可能会并行交错；强顺序Strict：有两个或者多个操作数片段，这些片段必须按照给定顺序发生；
