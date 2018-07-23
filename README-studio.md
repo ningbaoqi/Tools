@@ -27,3 +27,6 @@
 
 ### 单元测试步骤
 [单元测试步骤](https://github.com/ningbaoqi/Tools/blob/master/README-debug1.md)
+
+### 使用AndroidStudio把本地代码托管到Github上的流程
+[使用AndroidStudio把本地代码托管到Github上的流程](https://github.com/ningbaoqi/Tools/blob/master/README-github.md)
