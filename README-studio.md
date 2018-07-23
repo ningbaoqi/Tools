@@ -30,3 +30,6 @@
 
 ### 使用AndroidStudio把本地代码托管到Github上的流程
 [使用AndroidStudio把本地代码托管到Github上的流程](https://github.com/ningbaoqi/Tools/blob/master/README-github.md)
+
+### 从Eclipse ADT项目迁移到AndroidStudio
+[从Eclipse ADT项目迁移到AndroidStudio](https://github.com/ningbaoqi/Tools/blob/master/README-to.md)
