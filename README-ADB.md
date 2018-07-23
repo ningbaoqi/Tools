@@ -67,7 +67,7 @@
 #### 二十七、通过`TCP/IP`连接到设备
 ![image](https://github.com/ningbaoqi/Tools/blob/master/gif/pic-86.jpg)
 + 如果没有指定端口号，默认情况下使用端口`5555`；原型：`connect <host>[:<port>]`；如：`adb connect 192.168.1.220`；
-####二十八、通过`TCP/IP`设备断开连接
+#### 二十八、通过`TCP/IP`设备断开连接
 ![image](https://github.com/ningbaoqi/Tools/blob/master/gif/pic-87.jpg)
 + 如果没有指定端口号，默认情况下使用端口5555；使用此命令没有附加参数；将从所有连接的TCP/IP设备断开连接；原型：`disconnect [<host>[:<port>]]`；
 
