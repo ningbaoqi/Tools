@@ -16,7 +16,9 @@
 + 格式是`[Boolean Test]`；
 #### 六、组合片段
 + 组合片段用来解决交互执行的条件及方式。它允许在序列图中直接表示逻辑组件，用于通过指定条件或者子进程的应用区域，为任何生命线的任何部分定义特殊条件和子进程；
+
 ![image](https://github.com/ningbaoqi/Tools/blob/master/gif/pic-15.jpg)
+
 + 抉择Alt：抉择用来指明在两个或者更多的消息序列之间的互斥的选择，相当于if...else...；
 ![image](https://github.com/ningbaoqi/Tools/blob/master/gif/pic-16.jpg)
 + 选项Opt：包含一个可能发生或不可能发生的序列，可以在临界中指定序列发生的条件；
