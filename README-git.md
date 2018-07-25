@@ -19,46 +19,16 @@
 
 ##### git rm
 
-+ 进入某个目录中，执行此语句，会删除该目录中的所有目录和文件 ：`git rm -r*`
-
-+ 删除文件f1，不会删除本地目录文件，只删除index中的文件记录，将已经git add的文件remove到cache中，这样commit的时候不会提交这个文件，适用于一下子添加了很多文件，却不想排除其中个别几个文件的情况：`git rm --ached f1`
-
-######git log
-
-+ 表示只显示一个commit：`git log -l`
-
-+ 查看两个commit：`git log --max-count=2`
-
-######git branch
-
-+ 删除分支：`git branch -d 分支名`
-
-+ 查看服务器上所有的分支：`git branch -a`
-
-+ 查看当前代码的所在分支：`git branch`
-
-######git checkout
-
-+ 恢复本地代码：`git checkout ./`
-
-+ 切换到这个分支：`git checkout 分支名`
-
-+ 创建一个分支并且切换到这个分支上：`git checkout -b 分支名`（remotes/origin/K558_INNJOO_V2，如果加入本服务器分支，则新创建的分支将会追踪本服务器分支）
-
-+ 切换到某个已经建立的本地分支，并且在该分支的基础上初始化一个新的分支：`git checkout -b newbranch localbranch`
-
-#repo
-
-+ 是Google为了简化git的使用，创建的对git简化的包装工具
-
-######初始化软件仓库
-
-+ `repo init -u 代码库地址 -b 分支名`（-u参数用来初始化代码仓库 -b参数指定某个分支 如果不指定默认为master分支）
-
-######同步代码
-
-+ `repo sync -j4 `（使用-j参数来指定启动多线程同时下载 -j4 将会使用8个线程同时下载）
-
-
-
-
++ 进入某个目录中，执行此语句，会删除该目录中的所有目录和文件 ：`git rm -r*`；删除文件f1，不会删除本地目录文件，只删除index中的文件记录，将已经git add的文件remove到cache中，这样commit的时候不会提交这个文件，适用于一下子添加了很多文件，却不想排除其中个别几个文件的情况：`git rm --ached f1`；
+##### git log
++ 表示只显示一个commit：`git log -l`；查看两个commit：`git log --max-count=2`；
+##### git branch
++ 删除分支：`git branch -d 分支名`；查看服务器上所有的分支：`git branch -a`； 查看当前代码的所在分支：`git branch`；
+##### git checkout
++ 恢复本地代码：`git checkout ./`；切换到这个分支：`git checkout 分支名`；创建一个分支并且切换到这个分支上：`git checkout -b 分支名`（remotes/origin/K558_INNJOO_V2，如果加入本服务器分支，则新创建的分支将会追踪本服务器分支）；切换到某个已经建立的本地分支，并且在该分支的基础上初始化一个新的分支：`git checkout -b newbranch localbranch`；
+### repo
++ 是Google为了简化git的使用，创建的对git简化的包装工具；
+#### 初始化软件仓库
++ `repo init -u 代码库地址 -b 分支名`（-u参数用来初始化代码仓库 -b参数指定某个分支 如果不指定默认为master分支）；
+#### 同步代码
++ `repo sync -j4 `（使用-j参数来指定启动多线程同时下载 -j4 将会使用8个线程同时下载）；
