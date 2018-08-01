@@ -12,7 +12,8 @@
 |http://blog.csdn.net/chadcao/article/details/8973162|
 |http://blog.csdn.net/liranke/article/details/43197729|
 |http://geek99.com|
-|http://blog.csdn.net/guolin_blog|            
+|http://blog.csdn.net/guolin_blog|
+|http://www.cnblogs.com/weimore/p/7725256.html|
 
 + [android文档网址](http://www.androiddevtools.cn/)
 + [android文档网址](http://www.android-doc.com)
